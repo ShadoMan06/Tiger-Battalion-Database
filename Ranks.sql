@@ -1,0 +1,5 @@
+CREATE TABLE Ranks (
+    RankID INT PRIMARY KEY AUTO_INCREMENT,
+    RankName VARCHAR(50) NOT NULL UNIQUE,
+    RankDescription TEXT
+);
